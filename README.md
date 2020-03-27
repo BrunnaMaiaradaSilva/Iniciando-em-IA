@@ -1,4 +1,4 @@
-__Como algoritmos aprendem?__
+#__Como algoritmos aprendem?__
 
 Cães e gatos são animais peludos com quatro patas e muitas outras características em comum. Por que, então, é tão fácil distinguir um gato de um cachorro?
 
@@ -10,6 +10,6 @@ Dados numéricos representando imagens de cães e gatos é a resposta correta. S
 
 Suponha que você tenha acesso a 100.000 imagens de cães e gatos que você pode usar para criar um modelo de aprendizado supervisionado que distinga entre cães e gatos. Depois de usar imagens como exemplos para treinar (ou ensinar) o modelo, convém usar imagens para testar o modelo; isto é, para determinar se o modelo é realmente bem-sucedido em identificar se a imagem é de um cachorro ou gato. Qual seria uma maneira razoável de selecionar suas imagens para treinamento e teste?
 
-_Como testar um modelo?_
+__Como testar um modelo?__
 
 Dividindo as imagens aleatoriamente em dois conjuntos: um para treinamento e outro para teste O objetivo final do aprendizado supervisionado é encontrar uma função que modele o relacionamento entre as entradas e saídas, o que significa que ele deve ser capaz de prever uma saída, dada uma nova entrada que ela nunca viu antes. Isso é conhecido como generalização. Portanto, precisamos avaliar quão bem o modelo e o algoritmo de aprendizado generalizam os dados observados para os dados não observados. Uma maneira simples de fazer isso é dividir os dados de entrada em dois conjuntos, um conjunto para treinar o modelo e outro para avaliar quão bem ele generaliza. O primeiro conjunto é conhecido como dados de treinamento, pois é o que o modelo usa para treinar. O segundo conjunto é conhecido como dados de teste, pois é usado para avaliar a capacidade de generalização do modelo e do algoritmo de aprendizado. Como realmente dividir esses dados (ou seja, qual proporção de dados a ser salva para teste) depende do problema em questão e dos dados disponíveis. O que veremos no próximo commit!
