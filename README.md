@@ -1,4 +1,4 @@
-#Como algoritmos aprendem?
+Como algoritmos aprendem?
 
 Cães e gatos são animais peludos com quatro patas e muitas outras características em comum. Por que, então, é tão fácil distinguir um gato de um cachorro?
 
